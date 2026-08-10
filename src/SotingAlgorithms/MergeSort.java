@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class MergeSort {
     public static void main(String[] args) {
-        int[] arr = {38, 27, 43, 10};
+        int[] arr = {3, 1, 2, 4, 8, 0, 7, 6, 5};
         System.out.println(Arrays.toString(arr));
         System.out.println();
         int start = 0;
@@ -16,7 +16,7 @@ public class MergeSort {
     private static void mergeSort(int[] arr, int l, int r) {
 
         if(l < r) {
-            int mid = r - (l + r) / 2;
+            int mid = l + (r - l) / 2;
 
             mergeSort(arr, l, mid);
             mergeSort(arr, mid + 1, r);
@@ -38,7 +38,7 @@ public class MergeSort {
         }
 
         for(int i = 0; i < n2; i++){
-            R[i] = arr[r+i];
+            R[i] = arr[mid+1+i];
         }
 
         int i = 0;
