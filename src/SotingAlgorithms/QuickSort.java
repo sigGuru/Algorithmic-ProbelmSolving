@@ -20,7 +20,7 @@ public class QuickSort {
             int pi = partion(arr, l, r);
 
             quickSort(arr, l, pi - 1);
-            quickSort(arr, pi, r);
+            quickSort(arr, pi + 1, r);
         }
     }
 
