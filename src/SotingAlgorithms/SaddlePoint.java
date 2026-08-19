@@ -39,7 +39,6 @@ public class SaddlePoint {
             if(isSaddlePoint){
                 return minRow;
             }
-
         }
         return -1;
     }
