@@ -1,6 +1,4 @@
-package SotingAlgorithms;
-
-import java.sql.SQLOutput;
+package DSAProblems;
 
 public class RotateMatrixByPosition {
     public static void main(String[] args) {

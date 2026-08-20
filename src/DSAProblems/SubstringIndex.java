@@ -1,4 +1,5 @@
-import javax.swing.*;
+package DSAProblems;
+
 import java.util.Scanner;
 
 public class SubstringIndex {

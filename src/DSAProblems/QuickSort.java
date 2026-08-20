@@ -1,4 +1,4 @@
-package SotingAlgorithms;
+package DSAProblems;
 
 import java.util.Arrays;
 

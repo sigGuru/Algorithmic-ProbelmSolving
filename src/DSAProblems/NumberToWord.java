@@ -1,3 +1,5 @@
+package DSAProblems;
+
 import java.util.Scanner;
 
 public class NumberToWord {
